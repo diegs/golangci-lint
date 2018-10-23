@@ -1,0 +1,7 @@
+- id: golangci-lint
+  name: golangci-lint
+  description: Run golangci-lint on go code.
+  entry: golangci-lint run
+  types: [go]
+  language: golang
+  pass_filenames: false
